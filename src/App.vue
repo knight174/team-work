@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
-const msg: number = 'Vue 3 + TypeScript + Vite';
+const msg = 'Vue 3 + TypeScript + Vite';
 console.log(msg);
 </script>
 
@@ -9,7 +9,7 @@ console.log(msg);
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <a v-if="" href="https://vuejs.org/" target="_blank">
+    <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
