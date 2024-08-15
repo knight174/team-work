@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
-const msg = 'Vue 3 + TypeScript + Vite';
-console.log(msg);
+import MyButton from './components/MyButton';
+const msg: string = 'Vue 3 + TypeScript + Vite';
 </script>
 
 <template>
@@ -14,6 +14,7 @@ console.log(msg);
     </a>
   </div>
   <HelloWorld :msg />
+  <MyButton label="MyButton" />
 </template>
 
 <style scoped>
