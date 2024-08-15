@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
-const msg = 'Vue 3 + TypeScript + Vite';
-console.log(msg);
+const msg: string = 'Vue 3 + TypeScript + Vite';
 </script>
 
 <template>
