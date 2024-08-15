@@ -1,4 +1,4 @@
 {
-  "**/*.{js,ts}": "eslint",
+  "**/*.{js,jsx,ts,tsx}": "eslint",
   "**/*.vue": "bun run lint"
 }

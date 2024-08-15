@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
+import MyButton from './components/MyButton';
 const msg: string = 'Vue 3 + TypeScript + Vite';
 </script>
 
@@ -13,6 +14,7 @@ const msg: string = 'Vue 3 + TypeScript + Vite';
     </a>
   </div>
   <HelloWorld :msg />
+  <MyButton label="MyButton" />
 </template>
 
 <style scoped>
